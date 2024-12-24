@@ -94,3 +94,10 @@ F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\runtimes\
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\obj\Debug\net8.0\Xioa.AvaApplication.sourcelink.json
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Avalonia.Controls.TreeDataGrid.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Semi.Avalonia.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Semi.Avalonia.ColorPicker.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Semi.Avalonia.DataGrid.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Semi.Avalonia.TreeDataGrid.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\System.Reactive.dll

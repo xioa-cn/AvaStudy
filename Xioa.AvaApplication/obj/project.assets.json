@@ -141,6 +141,19 @@
           }
         }
       },
+      "Avalonia.Controls.TreeDataGrid/11.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Avalonia.Controls.TreeDataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Avalonia.Controls.TreeDataGrid.dll": {}
+        }
+      },
       "Avalonia.Desktop/11.2.1": {
         "type": "package",
         "dependencies": {
@@ -495,6 +508,56 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Semi.Avalonia/11.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.2.1"
+        },
+        "compile": {
+          "lib/net8.0/Semi.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Semi.Avalonia.dll": {}
+        }
+      },
+      "Semi.Avalonia.ColorPicker/11.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.2.1",
+          "Avalonia.Controls.ColorPicker": "11.2.1"
+        },
+        "compile": {
+          "lib/net8.0/Semi.Avalonia.ColorPicker.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Semi.Avalonia.ColorPicker.dll": {}
+        }
+      },
+      "Semi.Avalonia.DataGrid/11.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.2.1",
+          "Avalonia.Controls.DataGrid": "11.2.1"
+        },
+        "compile": {
+          "lib/net8.0/Semi.Avalonia.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Semi.Avalonia.DataGrid.dll": {}
+        }
+      },
+      "Semi.Avalonia.TreeDataGrid/11.0.10.1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia.Controls.TreeDataGrid": "11.0.10"
+        },
+        "compile": {
+          "lib/net6.0/Semi.Avalonia.TreeDataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Semi.Avalonia.TreeDataGrid.dll": {}
+        }
+      },
       "SkiaSharp/2.88.8": {
         "type": "package",
         "dependencies": {
@@ -773,6 +836,22 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      },
       "Tmds.DBus.Protocol/0.20.0": {
         "type": "package",
         "dependencies": {
@@ -1024,6 +1103,18 @@
         "lib/net8.0/Avalonia.Controls.DataGrid.xml",
         "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll",
         "lib/netstandard2.0/Avalonia.Controls.DataGrid.xml"
+      ]
+    },
+    "Avalonia.Controls.TreeDataGrid/11.0.10": {
+      "sha512": "BP/940no+CxOtg6+iz1Cf9AB7/POS9+J8rxk1M0m5SUC9fwP2KNJ6E6smDnoKyQ3edHLtEJvN2PXufraRyQUCA==",
+      "type": "package",
+      "path": "avalonia.controls.treedatagrid/11.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonia.controls.treedatagrid.11.0.10.nupkg.sha512",
+        "avalonia.controls.treedatagrid.nuspec",
+        "lib/net5.0/Avalonia.Controls.TreeDataGrid.dll"
       ]
     },
     "Avalonia.Desktop/11.2.1": {
@@ -1503,6 +1594,64 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Semi.Avalonia/11.2.1.2": {
+      "sha512": "77jfRtl0YBzSp/ukyYYd/ljGa5AdpYfuGeG8HdP7WCretQJ1j9wBZggzIdDDjEpPJAB2BlBkWKDjFA2bkTsvQQ==",
+      "type": "package",
+      "path": "semi.avalonia/11.2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "irihi.png",
+        "lib/net6.0/Semi.Avalonia.dll",
+        "lib/net8.0/Semi.Avalonia.dll",
+        "lib/netstandard2.0/Semi.Avalonia.dll",
+        "semi.avalonia.11.2.1.2.nupkg.sha512",
+        "semi.avalonia.nuspec"
+      ]
+    },
+    "Semi.Avalonia.ColorPicker/11.2.1.2": {
+      "sha512": "ywz3WUz4nY0zBxog23ImzPaPUwPCXkSFOcteImRxdpuZxWYQ6S6RkIUvxha4PlkFhRJe6sRieQ5r7xdQYRkPlQ==",
+      "type": "package",
+      "path": "semi.avalonia.colorpicker/11.2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "irihi.png",
+        "lib/net6.0/Semi.Avalonia.ColorPicker.dll",
+        "lib/net8.0/Semi.Avalonia.ColorPicker.dll",
+        "lib/netstandard2.0/Semi.Avalonia.ColorPicker.dll",
+        "semi.avalonia.colorpicker.11.2.1.2.nupkg.sha512",
+        "semi.avalonia.colorpicker.nuspec"
+      ]
+    },
+    "Semi.Avalonia.DataGrid/11.2.1.2": {
+      "sha512": "ndHUJze8IfvpDt7Xen8QCxChlMNkd/1nzg3Cgex+e8iHmSAhJM7iKvf+YTQXNrQH72PNV6iQBvH+1qqOg3enSw==",
+      "type": "package",
+      "path": "semi.avalonia.datagrid/11.2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "irihi.png",
+        "lib/net6.0/Semi.Avalonia.DataGrid.dll",
+        "lib/net8.0/Semi.Avalonia.DataGrid.dll",
+        "lib/netstandard2.0/Semi.Avalonia.DataGrid.dll",
+        "semi.avalonia.datagrid.11.2.1.2.nupkg.sha512",
+        "semi.avalonia.datagrid.nuspec"
+      ]
+    },
+    "Semi.Avalonia.TreeDataGrid/11.0.10.1": {
+      "sha512": "7CB5XgdKziBh3tKl0hWfw/dVCwmi4XoZcRgV/bIOa3GyOAOmwll21Sn3JaJDLdjyl/I/1MJSSHcgBkbLG9hz2A==",
+      "type": "package",
+      "path": "semi.avalonia.treedatagrid/11.0.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "irihi.png",
+        "lib/net6.0/Semi.Avalonia.TreeDataGrid.dll",
+        "semi.avalonia.treedatagrid.11.0.10.1.nupkg.sha512",
+        "semi.avalonia.treedatagrid.nuspec"
+      ]
+    },
     "SkiaSharp/2.88.8": {
       "sha512": "bRkp3uKp5ZI8gXYQT57uKwil1uobb2p8c69n7v5evlB/2JNcMAXVcw9DZAP5Ig3WSvgzGm2YSn27UVeOi05NlA==",
       "type": "package",
@@ -1831,6 +1980,35 @@
         "version.txt"
       ]
     },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
     "Tmds.DBus.Protocol/0.20.0": {
       "sha512": "2gkt2kuYPhDKd8gtl34jZSJOnn4nRJfFngCDcTZT/uySbK++ua0YQx2418l9Rn1Y4dE5XNq6zG9ZsE5ltLlNNw==",
       "type": "package",
@@ -1856,6 +2034,10 @@
       "Avalonia.Themes.Fluent >= 11.2.1",
       "CommunityToolkit.Mvvm >= 8.2.1",
       "Microsoft.Extensions.DependencyInjection >= 9.0.0",
+      "Semi.Avalonia >= 11.2.1.2",
+      "Semi.Avalonia.ColorPicker >= 11.2.1.2",
+      "Semi.Avalonia.DataGrid >= 11.2.1.2",
+      "Semi.Avalonia.TreeDataGrid >= 11.0.10.1",
       "sqlite-net-pcl >= 1.9.172"
     ]
   },
@@ -1937,6 +2119,22 @@
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Semi.Avalonia": {
+            "target": "Package",
+            "version": "[11.2.1.2, )"
+          },
+          "Semi.Avalonia.ColorPicker": {
+            "target": "Package",
+            "version": "[11.2.1.2, )"
+          },
+          "Semi.Avalonia.DataGrid": {
+            "target": "Package",
+            "version": "[11.2.1.2, )"
+          },
+          "Semi.Avalonia.TreeDataGrid": {
+            "target": "Package",
+            "version": "[11.0.10.1, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

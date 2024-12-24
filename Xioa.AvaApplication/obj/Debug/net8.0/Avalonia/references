@@ -2,6 +2,7 @@ C:\Users\Administrator\.nuget\packages\avalonia\11.2.1\ref\net8.0\Avalonia.Base.
 C:\Users\Administrator\.nuget\packages\avalonia.controls.colorpicker\11.2.1\lib\net8.0\Avalonia.Controls.ColorPicker.dll
 C:\Users\Administrator\.nuget\packages\avalonia.controls.datagrid\11.2.1\lib\net8.0\Avalonia.Controls.DataGrid.dll
 C:\Users\Administrator\.nuget\packages\avalonia\11.2.1\ref\net8.0\Avalonia.Controls.dll
+C:\Users\Administrator\.nuget\packages\avalonia.controls.treedatagrid\11.0.10\lib\net5.0\Avalonia.Controls.TreeDataGrid.dll
 C:\Users\Administrator\.nuget\packages\avalonia\11.2.1\ref\net8.0\Avalonia.DesignerSupport.dll
 C:\Users\Administrator\.nuget\packages\avalonia.desktop\11.2.1\lib\net8.0\Avalonia.Desktop.dll
 C:\Users\Administrator\.nuget\packages\avalonia.diagnostics\11.2.1\lib\net8.0\Avalonia.Diagnostics.dll
@@ -34,6 +35,10 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\Micros
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\Microsoft.Win32.Registry.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\mscorlib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\netstandard.dll
+C:\Users\Administrator\.nuget\packages\semi.avalonia.colorpicker\11.2.1.2\lib\net8.0\Semi.Avalonia.ColorPicker.dll
+C:\Users\Administrator\.nuget\packages\semi.avalonia.datagrid\11.2.1.2\lib\net8.0\Semi.Avalonia.DataGrid.dll
+C:\Users\Administrator\.nuget\packages\semi.avalonia\11.2.1.2\lib\net8.0\Semi.Avalonia.dll
+C:\Users\Administrator\.nuget\packages\semi.avalonia.treedatagrid\11.0.10.1\lib\net6.0\Semi.Avalonia.TreeDataGrid.dll
 C:\Users\Administrator\.nuget\packages\skiasharp\2.88.8\lib\net6.0\SkiaSharp.dll
 C:\Users\Administrator\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll
 C:\Users\Administrator\.nuget\packages\sqlitepclraw.bundle_green\2.1.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll
@@ -120,6 +125,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\System
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\System.Numerics.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\System.Numerics.Vectors.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\System.ObjectModel.dll
+C:\Users\Administrator\.nuget\packages\system.reactive\5.0.0\lib\net5.0\System.Reactive.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\System.Reflection.DispatchProxy.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\System.Reflection.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.11\ref\net8.0\System.Reflection.Emit.dll

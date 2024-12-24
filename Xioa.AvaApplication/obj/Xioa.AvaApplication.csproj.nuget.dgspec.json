@@ -79,6 +79,22 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Semi.Avalonia": {
+              "target": "Package",
+              "version": "[11.2.1.2, )"
+            },
+            "Semi.Avalonia.ColorPicker": {
+              "target": "Package",
+              "version": "[11.2.1.2, )"
+            },
+            "Semi.Avalonia.DataGrid": {
+              "target": "Package",
+              "version": "[11.2.1.2, )"
+            },
+            "Semi.Avalonia.TreeDataGrid": {
+              "target": "Package",
+              "version": "[11.0.10.1, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.9.172, )"
