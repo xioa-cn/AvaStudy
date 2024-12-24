@@ -25,6 +25,7 @@ public partial class App : Application {
             };
         }
 
+        //AvaloniaLocator.Current.
         base.OnFrameworkInitializationCompleted();
     }
 

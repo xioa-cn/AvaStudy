@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Xioa.AvaApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baf1379405064502add126f8142d69c0d7bf1465")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+881d924aa8e6ef1de136b92eebac7893ce831f09")]
 [assembly: System.Reflection.AssemblyProductAttribute("Xioa.AvaApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Xioa.AvaApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

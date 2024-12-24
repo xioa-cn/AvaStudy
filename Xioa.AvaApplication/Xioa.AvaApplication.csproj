@@ -31,4 +31,11 @@
         <PackageReference Include="Semi.Avalonia.TreeDataGrid" Version="11.0.10.1" />
         <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
     </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\poetrydb.sqlite3" />
+      <Resource Include="Assets\poetrydb.sqlite3">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
 </Project>
