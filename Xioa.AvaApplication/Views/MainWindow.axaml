@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Xioa.AvaApplication.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Xioa.AvaApplication.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        DataContext="{Binding MainWindowViewModel,Source={StaticResource Locator}}"
+        Title="Xioa.AvaApplication"
+        x:DataType="vm:MainWindowViewModel">
+    <!-- <Window.DataContext> -->
+    <!--     <Binding Source="{StaticResource Locator}" Path="MainWindowViewModel"/> -->
+    <!-- </Window.DataContext> -->
+    <StackPanel>
+        <TextBlock Text="{Binding Greeting}"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" />
+        <Button Command="{Binding InitializeCommand}">Initialize</Button>
+        <Button Command="{Binding InsertCommand}">Insert</Button>
+    </StackPanel>
+
+</Window>
