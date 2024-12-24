@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xioa.AvaApplication", "Xioa.AvaApplication\Xioa.AvaApplication.csproj", "{D5455134-38A8-4DDD-9E47-39BDDAFD9E22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xioa.Avalonia.Lib", "Xioa.Avalonia.Lib\Xioa.Avalonia.Lib.csproj", "{42243555-68A8-49E8-BACB-3FCE0701668E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{D5455134-38A8-4DDD-9E47-39BDDAFD9E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5455134-38A8-4DDD-9E47-39BDDAFD9E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5455134-38A8-4DDD-9E47-39BDDAFD9E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42243555-68A8-49E8-BACB-3FCE0701668E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42243555-68A8-49E8-BACB-3FCE0701668E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42243555-68A8-49E8-BACB-3FCE0701668E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42243555-68A8-49E8-BACB-3FCE0701668E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
