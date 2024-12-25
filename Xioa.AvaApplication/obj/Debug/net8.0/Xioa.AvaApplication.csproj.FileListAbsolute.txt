@@ -101,4 +101,5 @@ F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Semi.Aval
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Semi.Avalonia.DataGrid.dll
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Semi.Avalonia.TreeDataGrid.dll
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\System.Reactive.dll
-F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Assets\poetrydb.sqlite3
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Xioa.Avalonia.Lib.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Xioa.Avalonia.Lib.pdb

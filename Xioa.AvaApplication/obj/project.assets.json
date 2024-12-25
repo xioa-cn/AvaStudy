@@ -863,6 +863,20 @@
         "runtime": {
           "lib/net8.0/Tmds.DBus.Protocol.dll": {}
         }
+      },
+      "Xioa.Avalonia.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.1",
+          "sqlite-net-pcl": "1.9.172"
+        },
+        "compile": {
+          "bin/placeholder/Xioa.Avalonia.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xioa.Avalonia.Lib.dll": {}
+        }
       }
     }
   },
@@ -2023,6 +2037,11 @@
         "tmds.dbus.protocol.0.20.0.nupkg.sha512",
         "tmds.dbus.protocol.nuspec"
       ]
+    },
+    "Xioa.Avalonia.Lib/1.0.0": {
+      "type": "project",
+      "path": "../Xioa.Avalonia.Lib/Xioa.Avalonia.Lib.csproj",
+      "msbuildProject": "../Xioa.Avalonia.Lib/Xioa.Avalonia.Lib.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2038,6 +2057,7 @@
       "Semi.Avalonia.ColorPicker >= 11.2.1.2",
       "Semi.Avalonia.DataGrid >= 11.2.1.2",
       "Semi.Avalonia.TreeDataGrid >= 11.0.10.1",
+      "Xioa.Avalonia.Lib >= 1.0.0",
       "sqlite-net-pcl >= 1.9.172"
     ]
   },
@@ -2073,7 +2093,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\git\\github\\Xioa.AvaApplication\\Xioa.Avalonia.Lib\\Xioa.Avalonia.Lib.csproj": {
+              "projectPath": "F:\\git\\github\\Xioa.AvaApplication\\Xioa.Avalonia.Lib\\Xioa.Avalonia.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

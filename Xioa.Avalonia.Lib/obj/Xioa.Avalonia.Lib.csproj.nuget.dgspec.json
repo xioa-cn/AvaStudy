@@ -51,26 +51,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Avalonia": {
-              "target": "Package",
-              "version": "[11.2.1, )"
-            },
-            "Avalonia.Desktop": {
-              "target": "Package",
-              "version": "[11.2.1, )"
-            },
-            "Avalonia.Diagnostics": {
-              "target": "Package",
-              "version": "[11.2.1, )"
-            },
-            "Avalonia.Fonts.Inter": {
-              "target": "Package",
-              "version": "[11.2.1, )"
-            },
-            "Avalonia.Themes.Fluent": {
-              "target": "Package",
-              "version": "[11.2.1, )"
-            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.1, )"

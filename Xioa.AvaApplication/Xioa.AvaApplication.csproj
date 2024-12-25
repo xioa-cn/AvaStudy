@@ -38,4 +38,8 @@
         <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       </Resource>
     </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Xioa.Avalonia.Lib\Xioa.Avalonia.Lib.csproj" />
+    </ItemGroup>
 </Project>

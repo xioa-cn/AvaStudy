@@ -9,6 +9,8 @@ using Xioa.AvaApplication.Views;
 namespace Xioa.AvaApplication;
 
 public partial class App : Application {
+    public new static App? Current => (App)Application.Current;
+    
     public override void Initialize() {
         AvaloniaXamlLoader.Load(this);
     }
@@ -25,6 +27,7 @@ public partial class App : Application {
             };
         }
 
+        
         //AvaloniaLocator.Current.
         base.OnFrameworkInitializationCompleted();
     }

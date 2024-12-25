@@ -19,6 +19,7 @@
           "Semi.Avalonia.ColorPicker": "11.2.1.2",
           "Semi.Avalonia.DataGrid": "11.2.1.2",
           "Semi.Avalonia.TreeDataGrid": "11.0.10.1",
+          "Xioa.Avalonia.Lib": "1.0.0",
           "sqlite-net-pcl": "1.9.172"
         },
         "runtime": {
@@ -679,6 +680,18 @@
             "fileVersion": "0.20.0.0"
           }
         }
+      },
+      "Xioa.Avalonia.Lib/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.1",
+          "sqlite-net-pcl": "1.9.172"
+        },
+        "runtime": {
+          "Xioa.Avalonia.Lib.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -995,6 +1008,11 @@
       "sha512": "sha512-2gkt2kuYPhDKd8gtl34jZSJOnn4nRJfFngCDcTZT/uySbK++ua0YQx2418l9Rn1Y4dE5XNq6zG9ZsE5ltLlNNw==",
       "path": "tmds.dbus.protocol/0.20.0",
       "hashPath": "tmds.dbus.protocol.0.20.0.nupkg.sha512"
+    },
+    "Xioa.Avalonia.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

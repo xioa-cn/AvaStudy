@@ -15,7 +15,7 @@ public class Poetry {
     [SQLite.Column("content")]
     public string Content { get; set; } = string.Empty;
 
-    private string _snippet;
+    private string? _snippet;
 
     [SQLite.Ignore]
     public string Snippet =>
