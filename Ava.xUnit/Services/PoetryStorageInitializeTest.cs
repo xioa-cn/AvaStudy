@@ -3,7 +3,7 @@ using Xioa.Avalonia.Lib.Services;
 
 namespace Ava.xUnit.Services;
 
-public class PoetryStorageTest : IDisposable {
+public class PoetryStorageInitializeTest : IDisposable {
     [Fact]
     public async Task InitializeAsync_Success() {
         var poetryStorage = new PoetryStorage();
