@@ -133,3 +133,5 @@ F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\Moq.dll
 F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
 F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\xunit.runner.json
+F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\AvaloniaInfiniteScrolling.Collection.dll
