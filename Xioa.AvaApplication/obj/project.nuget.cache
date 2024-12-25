@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4lFTILgDPgQ=",
+  "dgSpecHash": "2Iby2oYxFYA=",
   "success": true,
   "projectFilePath": "F:\\git\\github\\Xioa.AvaApplication\\Xioa.AvaApplication\\Xioa.AvaApplication.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,16 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.themes.simple\\11.2.1\\avalonia.themes.simple.11.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.win32\\11.2.1\\avalonia.win32.11.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.x11\\11.2.1\\avalonia.x11.11.2.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.xaml.behaviors\\11.2.0.1\\avalonia.xaml.behaviors.11.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.xaml.interactions\\11.2.0.1\\avalonia.xaml.interactions.11.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.xaml.interactions.custom\\11.2.0.1\\avalonia.xaml.interactions.custom.11.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.xaml.interactions.draganddrop\\11.2.0.1\\avalonia.xaml.interactions.draganddrop.11.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.xaml.interactions.draggable\\11.2.0.1\\avalonia.xaml.interactions.draggable.11.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.xaml.interactions.events\\11.2.0.1\\avalonia.xaml.interactions.events.11.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.xaml.interactions.responsive\\11.2.0.1\\avalonia.xaml.interactions.responsive.11.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonia.xaml.interactivity\\11.2.0.1\\avalonia.xaml.interactivity.11.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avaloniainfinitescrolling.collection\\1.0.1\\avaloniainfinitescrolling.collection.1.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\avaloniainfinitescrolling.control\\1.0.0\\avaloniainfinitescrolling.control.1.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\harfbuzzsharp\\7.3.0.2\\harfbuzzsharp.7.3.0.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\7.3.0.2\\harfbuzzsharp.nativeassets.linux.7.3.0.2.nupkg.sha512",
@@ -46,7 +56,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\tmds.dbus.protocol\\0.20.0\\tmds.dbus.protocol.0.20.0.nupkg.sha512"
   ],
   "logs": []

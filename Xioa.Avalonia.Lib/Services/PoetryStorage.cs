@@ -47,9 +47,8 @@ public class PoetryStorage : IPoetryStorage {
     public async Task<Poetry> GetPoetryAsync(int id) =>
         await SqLiteAsyncConnection.Table<Poetry>().FirstOrDefaultAsync(e => e.Id == id);
 
-    public Task<IList<Poetry>> GetPoetriesAsync(Expression<Func<Poetry, bool>> where, int skip, int take) {
-        throw new NotImplementedException();
-    }
+    public async Task<IList<Poetry>> GetPoetriesAsync(Expression<Func<Poetry, bool>> where, int skip, int take)
+        => await SqLiteAsyncConnection.Table<Poetry>().Where(where).Skip(skip).Take(take).ToListAsync();
 
     public async Task Close() {
         await SqLiteAsyncConnection.CloseAsync();

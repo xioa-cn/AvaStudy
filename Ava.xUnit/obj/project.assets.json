@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "AvaloniaInfiniteScrolling.Collection/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AvaloniaInfiniteScrolling.Collection.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/AvaloniaInfiniteScrolling.Collection.dll": {}
+        }
+      },
       "Castle.Core/5.1.1": {
         "type": "package",
         "dependencies": {
@@ -650,6 +659,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "AvaloniaInfiniteScrolling.Collection": "1.0.1",
           "CommunityToolkit.Mvvm": "8.2.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -663,6 +673,18 @@
     }
   },
   "libraries": {
+    "AvaloniaInfiniteScrolling.Collection/1.0.1": {
+      "sha512": "QF4GNrZ+rza7akXyAxBMCUxRwRm4Yx1JI29R+0T8IU7/H3WGVHXdTPzthKklbqaE2QxgVow5atLK7Bzx71aZRg==",
+      "type": "package",
+      "path": "avaloniainfinitescrolling.collection/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avaloniainfinitescrolling.collection.1.0.1.nupkg.sha512",
+        "avaloniainfinitescrolling.collection.nuspec",
+        "lib/net8.0/AvaloniaInfiniteScrolling.Collection.dll"
+      ]
+    },
     "Castle.Core/5.1.1": {
       "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
       "type": "package",

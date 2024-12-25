@@ -75,6 +75,14 @@
               "target": "Package",
               "version": "[11.2.1, )"
             },
+            "Avalonia.Xaml.Behaviors": {
+              "target": "Package",
+              "version": "[11.2.0.1, )"
+            },
+            "AvaloniaInfiniteScrolling.Control": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.1, )"
@@ -171,6 +179,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AvaloniaInfiniteScrolling.Collection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.1, )"

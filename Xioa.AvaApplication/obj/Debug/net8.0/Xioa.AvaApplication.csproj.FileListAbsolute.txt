@@ -103,3 +103,12 @@ F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Semi.Aval
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\System.Reactive.dll
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Xioa.Avalonia.Lib.dll
 F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Xioa.Avalonia.Lib.pdb
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Avalonia.Xaml.Interactions.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Avalonia.Xaml.Interactions.Custom.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Avalonia.Xaml.Interactions.DragAndDrop.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Avalonia.Xaml.Interactions.Draggable.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Avalonia.Xaml.Interactions.Events.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Avalonia.Xaml.Interactions.Responsive.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\Avalonia.Xaml.Interactivity.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\AvaloniaInfiniteScrolling.Collection.dll
+F:\git\github\Xioa.AvaApplication\Xioa.AvaApplication\bin\Debug\net8.0\AvaloniaInfiniteScrolling.Control.dll

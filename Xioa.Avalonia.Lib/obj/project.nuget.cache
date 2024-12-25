@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u4JoXYlXoTE=",
+  "dgSpecHash": "CDvNlcRUyRk=",
   "success": true,
   "projectFilePath": "F:\\git\\github\\Xioa.AvaApplication\\Xioa.Avalonia.Lib\\Xioa.Avalonia.Lib.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\avaloniainfinitescrolling.collection\\1.0.1\\avaloniainfinitescrolling.collection.1.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\sqlite-net-pcl\\1.9.172\\sqlite-net-pcl.1.9.172.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.2\\sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",

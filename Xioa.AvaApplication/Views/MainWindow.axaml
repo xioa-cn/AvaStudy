@@ -4,19 +4,35 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        xmlns:infiniteScroll="using:AvaloniaInfiniteScrolling"
+        xmlns:i="using:Avalonia.Xaml.Interactivity"
+        xmlns:ia="using:Avalonia.Xaml.Interactions.Core"
         x:Class="Xioa.AvaApplication.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="Xioa.AvaApplication"
         x:DataType="vm:MainWindowViewModel">
+    <!-- <i:Interaction.Behaviors> -->
+    <!--     <ia:EventTriggerBehavior EventName="Initialized"> -->
+    <!--         <ia:InvokeCommandAction Command="{Binding InitializeCommand}"/> -->
+    <!--     </ia:EventTriggerBehavior> -->
+    <!-- </i:Interaction.Behaviors> -->
     <Window.DataContext>
-        <Binding Source="{StaticResource Locator}" Path="MainWindowViewModel" />
+        <Binding Source="{StaticResource ServiceLocator}" Path="ResultViewModel" />
     </Window.DataContext>
-    <StackPanel>
-        <TextBlock Text="{Binding Greeting}"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center" />
-        <Button Command="{Binding InitializeCommand}">Initialize</Button>
-        <Button Command="{Binding InsertCommand}">Insert</Button>
+    <StackPanel >
+        <infiniteScroll:AvaloniaInfiniteScrollControl
+            Height="200"
+            ItemsSource="{Binding PoetryInfiniteScrollCollection}">
+            <!-- <infiniteScroll:AvaloniaInfiniteScrollControl.ItemsPanel> -->
+            <!--     <ItemsPanelTemplate> -->
+            <!--         <StackPanel /> -->
+            <!--     </ItemsPanelTemplate> -->
+            <!-- </infiniteScroll:AvaloniaInfiniteScrollControl.ItemsPanel> -->
+            <infiniteScroll:AvaloniaInfiniteScrollControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"></TextBlock>
+                </DataTemplate>
+            </infiniteScroll:AvaloniaInfiniteScrollControl.ItemTemplate>
+        </infiniteScroll:AvaloniaInfiniteScrollControl>
     </StackPanel>
-
 </Window>
