@@ -9,8 +9,19 @@ using Xioa.Avalonia.Lib.Models;
 
 namespace Xioa.Avalonia.Lib.Services;
 
+public static class PoetryStorageConstant {
+    public const string VersionKey = nameof(PoetryStorageConstant) + "." + nameof(Version);
+    public const int Version = 1;
+}
+
 public class PoetryStorage : IPoetryStorage {
-    public bool IsInitialized { get; }
+    public PoetryStorage(IPreferenceStorage preferenceStorage) {
+        _preferenceStorage = preferenceStorage;
+    }
+
+    public bool IsInitialized =>
+        _preferenceStorage.Get(PoetryStorageConstant.VersionKey, default(int)) == PoetryStorageConstant.Version;
+
     public const int NumberPoetry = 30;
     public const string DbName = "poetrydb.sqlite3";
 
@@ -18,24 +29,29 @@ public class PoetryStorage : IPoetryStorage {
         PathHelper.GetLocalFilePath(DbName);
 
     private SQLiteAsyncConnection? _sqLiteAsyncConnection;
+    private readonly IPreferenceStorage _preferenceStorage;
+
 
     private SQLiteAsyncConnection SqLiteAsyncConnection
         => _sqLiteAsyncConnection ??= new SQLiteAsyncConnection(PoetryDbPath);
 
     public async Task InitializeAsync() {
-        await using FileStream dbFileStream = new FileStream(PoetryDbPath, FileMode.OpenOrCreate);
+        await using var dbFileStream = new FileStream(PoetryDbPath, FileMode.OpenOrCreate);
         await using var dbAssetStream = typeof(PoetryStorage).Assembly.GetManifestResourceStream(
             DbName);
         if (dbAssetStream is not null)
             await dbAssetStream.CopyToAsync(dbFileStream);
-        //throw new MissingManifestResourceException();
+        _preferenceStorage.Set(PoetryStorageConstant.VersionKey, PoetryStorageConstant.Version);
     }
 
-    public Task<Poetry> GetPoetryAsync(int id) {
-        throw new NotImplementedException();
-    }
+    public async Task<Poetry> GetPoetryAsync(int id) =>
+        await SqLiteAsyncConnection.Table<Poetry>().FirstOrDefaultAsync(e => e.Id == id);
 
     public Task<IList<Poetry>> GetPoetriesAsync(Expression<Func<Poetry, bool>> where, int skip, int take) {
         throw new NotImplementedException();
+    }
+
+    public async Task Close() {
+        await SqLiteAsyncConnection.CloseAsync();
     }
 }

@@ -128,3 +128,8 @@ F:\git\github\Xioa.AvaApplication\Ava.xUnit\obj\Debug\net9.0\refint\Ava.xUnit.dl
 F:\git\github\Xioa.AvaApplication\Ava.xUnit\obj\Debug\net9.0\Ava.xUnit.pdb
 F:\git\github\Xioa.AvaApplication\Ava.xUnit\obj\Debug\net9.0\Ava.xUnit.genruntimeconfig.cache
 F:\git\github\Xioa.AvaApplication\Ava.xUnit\obj\Debug\net9.0\ref\Ava.xUnit.dll
+F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\Castle.Core.dll
+F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\Moq.dll
+F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+F:\git\github\Xioa.AvaApplication\Ava.xUnit\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

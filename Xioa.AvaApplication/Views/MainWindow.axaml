@@ -6,12 +6,11 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Xioa.AvaApplication.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        DataContext="{Binding MainWindowViewModel,Source={StaticResource Locator}}"
         Title="Xioa.AvaApplication"
         x:DataType="vm:MainWindowViewModel">
-    <!-- <Window.DataContext> -->
-    <!--     <Binding Source="{StaticResource Locator}" Path="MainWindowViewModel"/> -->
-    <!-- </Window.DataContext> -->
+    <Window.DataContext>
+        <Binding Source="{StaticResource Locator}" Path="MainWindowViewModel" />
+    </Window.DataContext>
     <StackPanel>
         <TextBlock Text="{Binding Greeting}"
                    HorizontalAlignment="Center"

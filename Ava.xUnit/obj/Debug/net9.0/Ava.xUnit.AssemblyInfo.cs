@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ava.xUnit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7873e6ff2ac3c0311f9be7a228a6b41f1524eb50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b495a0ac889461e708ada41c131f5815c49ac9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ava.xUnit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ava.xUnit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
